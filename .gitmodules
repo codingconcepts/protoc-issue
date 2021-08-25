@@ -1,0 +1,3 @@
+[submodule "protoc-issue-registry"]
+	path = protoc-issue-registry
+	url = https://github.com/codingconcepts/protoc-issue-registry

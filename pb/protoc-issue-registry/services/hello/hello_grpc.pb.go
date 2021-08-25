@@ -4,10 +4,10 @@ package hello
 
 import (
 	context "context"
+	util "github.com/codingconcepts/protoc-issue-registry/messages/util"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
-	util "registry/messages/util"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -98,5 +98,5 @@ var Hello_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "registry/services/hello/hello.proto",
+	Metadata: "protoc-issue-registry/services/hello/hello.proto",
 }

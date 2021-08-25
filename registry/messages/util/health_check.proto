@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "registry/messages/util";
-
-message HealthCheckRequest {}
-
-message HealthCheckResponse {
-  string message = 1;
-}

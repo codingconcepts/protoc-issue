@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "registry/services/hello";
-
-import "registry/messages/util/health_check.proto";
-
-service Hello {
-  rpc HealthCheck (HealthCheckRequest) returns (HealthCheckResponse);
-}
